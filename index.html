@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Feliz Cumple 🎉</title>
+    <style>
+      body {
+        background-color: #0f172a;
+        color: #e2e8f0;
+        font-family: monospace;
+        text-align: center;
+        padding: 50px;
+      }
+      button {
+        background-color: #38bdf8;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Cargando recuerdos...</h1>
+    <p id="mensaje"></p>
+
+    <button onclick="mostrarMensaje()">Haz clic aquí</button>
+
+    <script>
+      function mostrarMensaje() {
+        document.getElementById("mensaje").innerHTML =
+          "Feliz cumpleaños 💙<br><br>" +
+          "Gracias por ese telescopio 🌙<br>" +
+          "y por seguir siendo parte de mi vida.<br><br>" +
+          "PD: Este regalo está hecho con código, como mi carrera 😄";
+      }
+    </script>
+  </body>
+</html>
