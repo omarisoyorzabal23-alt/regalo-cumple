@@ -532,8 +532,12 @@ body {
   max-width: 800px;
   margin: 20px auto;
 
+  
   font-size: 0.95rem;
   line-height: 1.8;
+  
+  text-align: justify;
+  padding: 0 20px;
 }
 
 @keyframes aparecer {
