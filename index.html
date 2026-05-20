@@ -288,7 +288,39 @@
       </p>
     </div>
 
+    <audio id="musica" loop>
+  <source src="musica.mp3" type="audio/mpeg">
+</audio>
+    
     <script>
+
+const checkbox = document.getElementById("animate");
+const carta = document.getElementById("carta");
+const intro = document.getElementById("intro");
+const musica = document.getElementById("musica");
+
+checkbox.addEventListener("change", () => {
+
+  if (checkbox.checked) {
+
+    setTimeout(() => {
+
+      intro.style.display = "none";
+      carta.style.display = "block";
+
+      musica.volume = 0.4;
+
+      musica.play();
+
+    }, 4000);
+
+  }
+
+});
+
+</script>
+      
+     <!--<script>
 
 const boton = document.getElementById("animate");
 
@@ -308,7 +340,7 @@ boton.addEventListener("change", () => {
 
 });
 
-</script>
+</script> -->
   
   </body>
 </html>

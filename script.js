@@ -1,3 +1,4 @@
+/*
 const checkbox = document.getElementById("animate");
 const carta = document.getElementById("carta");
 const intro = document.getElementById("intro");
@@ -17,3 +18,4 @@ checkbox.addEventListener("change", () => {
 
 });
 
+*/
